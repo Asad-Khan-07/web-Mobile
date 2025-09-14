@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid white; */
+    /* overflow: hidden; */
+}
+
+body {
+
+    background-color: #003366;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intro-main {
+    width: 100%;
+    height: 46.7em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #003366;
+}
+
+.intro-main-visible {
+    display: none;
+
+}
+
+.intro-sub-main {
+    height: 20em;
+    width: 20em;
+    box-shadow: 2px 2px 10px white;
+    border-radius: 20px;
+}
+
+.intro-sub-main>.option {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.intro-sub-main div{
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.option span {
+    color: white;
+    width: 10em;
+    height: 2em;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 20px black;
+}
+
+.option button:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+    opacity: 0.9;
+}
+
+.option button {
+    width: 10em;
+    height: 2em;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    box-shadow: 1px 1px 10px white;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.sub-main {
+    display: none;
+}
+
+.sub-main-visible {
+    display: flex;
+    flex-direction: column;
+    margin-top: -4em;
+}
+
+.one {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+    width: 20vw;
+}
+
+.one div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.one .icon {
+    height: 6em;
+    width: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 15px white;
+    border-radius: 10px;
+}
+
+
+.one input {
+    height: 2em;
+    width: 9em;
+    background-color: transparent;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid aliceblue;
+    color: aliceblue;
+}
+
+.one button {
+    height: 2em;
+    width: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 0.5em;
+    box-shadow: 2px 2px 15px white;
+    transition: transform 0.3s ease-in-out
+    
+}
+
+.one button:hover {
+    transform: translateY(-2px);
+    transition: transform 0.3s ease-in-out
+}
+
+.two {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2em;
+    height: 30vh;
+    width: 20vw;
+}
+
+.two div {
+    width: 5em;
+    height: 5.7em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 2px 2px 15px white;
+    color: white;
+    background-color: #003366;
+    transition: transform 0.3s ease-in-out
+}
+
+.two div:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+
+@media screen and (max-width:740px) {
+
+    .one {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 30vh;
+        width: 80vw;
+
+    }
+
+    .two {
+
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        row-gap: 2em;
+        height: 30vh;
+        width: 80vw;
+    }
+
+
+}
