@@ -1,0 +1,84 @@
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  width:95vw;
+  /* border: 2px solid wheat; */
+  background-color: #f7f3e4;
+  /* padding: auto; */
+  margin: auto;
+}
+
+.form-container{
+  /* border: 2px solid red; */
+  height: 50vh;
+  /* width: 30vw; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px 5px #4f1675;
+}
+
+.form-container h1{
+  color: #4f1675;
+  font-family: system-ui;
+}
+
+.form-container input{
+  width: 12em;
+  height: 2em;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  color: #4f1675;
+}
+
+.form-container button{
+  width: 8em;
+  height: 3em;
+  border-radius: 10px;
+  border: none;
+  font-family: system-ui;
+  font-weight: bolder;
+  color: #4f1675;
+  cursor: pointer;
+}
+
+
+.nav-bar{
+  padding: 50px; 
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-bar h1{
+  color: #4f1675;
+  font-family: system-ui;
+}
+
+.nav-bar button{
+  width: 8em;
+  height: 3em;
+  border-radius: 10px;
+  border: none;
+  font-family: system-ui;
+  font-weight: bolder;
+  color: #4f1675;
+  cursor: pointer;
+}
+
+
+.my-toast {
+  background-color: purple !important;
+  color: white !important;
+}
